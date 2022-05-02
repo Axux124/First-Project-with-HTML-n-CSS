@@ -154,7 +154,7 @@ h1:hover{
 
 .parrafops5{
     font-style: italic;
-    color: rgb(24, 73, 209);
+    color: rgb(255, 255, 255);
     text-shadow: 0.1em 0.1em black;
     text-align: center;
     font-size: large ;
@@ -560,9 +560,9 @@ h1:hover{
         font-size: 30px;            
     }
 
-    .contacto{
-        display: flex;
-        flex-direction: column;
+    .img{
+        max-height: 150px;
+        min-width: 100px;
     }
 
     .categorias{
@@ -594,8 +594,7 @@ h1:hover{
         flex-direction: column;
         column-gap: 2px;
         align-items: center;
-        width: 80%;
-        margin: 20px auto;
+        
     }
 
     .imagenESP{
@@ -636,9 +635,7 @@ h1:hover{
 /*Tablet*/
 @media screen and (min-width: 570px) and (max-width: 991px){
 
-   h1{
-       justify-content: center;
-   }
+   
     iframe{
         max-width: 100%;
         margin: 0;
