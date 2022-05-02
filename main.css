@@ -1,11 +1,4 @@
 /*configuraciones generales*/
-
-.inicio{
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
 .categorias{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;    
@@ -20,14 +13,6 @@
     color: aliceblue;
     text-shadow: 0.1em 0.1em black;   
 }
-
-.contacto{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(228, 6, 6);
-    text-shadow: 0.1em 0.1em black; 
-    text-decoration: underline;
-}
-
 
 body{
     background-attachment: fixed;
@@ -569,15 +554,10 @@ h1:hover{
 
 
 /*Mobile*/
-@media only screen and (min-width: 320px) and (max-width: 569px){
-
-    .inicio{
-        visibility: hidden;
-    }
-
+@media screen and (min-width: 320px) and (max-width: 569px){
     h1{
         text-align: center;    
-        font-size: 35px;            
+        font-size: 30px;            
     }
 
     .contacto{
@@ -590,7 +570,10 @@ h1:hover{
         text-align: center;    
         color: rgb(129, 127, 127);
         text-shadow: 0.1em 0.1em rgb(39, 2, 33);
-        font-size: 20px;
+    }
+
+    .subtituloscategorias{
+        padding-right: 20px;
     }
 
     iframe{
@@ -599,12 +582,6 @@ h1:hover{
         padding: 0;
     }
     
-    img{
-        
-        max-width: 100%;
-        max-height: 100%;
-    }
-
     body{
         background-size: cover;
         background-attachment: cover;
@@ -617,6 +594,8 @@ h1:hover{
         flex-direction: column;
         column-gap: 2px;
         align-items: center;
+        width: 80%;
+        margin: 20px auto;
     }
 
     .imagenESP{
@@ -655,16 +634,20 @@ h1:hover{
 }
 
 /*Tablet*/
-@media only screen and (min-width: 570px) and (max-width: 991px){
+@media screen and (min-width: 570px) and (max-width: 991px){
 
-    .inicio{
-        visibility: hidden;
-    }
-
+   h1{
+       justify-content: center;
+   }
     iframe{
         max-width: 100%;
         margin: 0;
         padding: 0;
+    }
+    
+    .subtituloscategorias{
+        padding-right: 20px;
+        justify-content: center;
     }
     
 
@@ -675,6 +658,16 @@ h1:hover{
         grid-row-gap: 18px;
         justify-content: center;
         justify-items: center;  
+        padding-left: 290px;
+        margin: 20px;
+    }
+
+    .wallpapers{
+        justify-content: center;
+        justify-items: center;
+        margin: 20px;
+        padding-left: 280px;
+        
         
     }
 
