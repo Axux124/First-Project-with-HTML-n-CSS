@@ -1,0 +1,688 @@
+/*configuraciones generales*/
+.categorias{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+    color: rgb(129, 127, 127);
+    text-shadow: 0.1em 0.1em rgb(39, 2, 33);
+    font-size: 30px;
+}
+
+.subtituloscategorias{
+    padding-right: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-shadow: 0.1em 0.1em black;   
+}
+
+body{
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+/*imagenes direccionales*/
+.imagenindex{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-row-gap: 18px;
+    justify-content: center;
+    justify-items: center;
+    padding: 70px;   
+}
+
+.imagenconsola2{
+    transition: all .3s ease-out;
+}
+
+.imagenconsola2:hover{
+    transform: scale(1.1);
+}
+
+.imagenpc2{
+    transition: all .3s ease-out;
+}
+
+.imagenpc2:hover{
+    transform: scale(1.1);
+}
+
+.imagen22{
+    transition: all .3s ease-out;
+}
+.imagen22:hover{
+    transform: scale(1.1);
+}
+
+.imagenVJ2{
+    transition: all .3s ease-out;
+}
+
+.imagenVJ2:hover{
+    transform: scale(1.1);
+}
+
+.imagenESP{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.imagenESP2{
+    transition: all .3s ease-out;
+
+}
+
+.imagenESP2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: $colorprimary;   
+    font-size: 85px;   
+    text-shadow: 0.1em 0.1em black;
+    transition: color 1s;
+    
+    
+}
+
+h1:hover{
+    color: green;
+    
+}
+
+/* pagina consolas*/
+
+
+.subtituloconsolas{
+    font-style: italic;
+    color: rgb(245, 243, 243);
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulosteam{
+    font-style: italic;
+    list-style: square;
+    color: $colorprimary;
+    text-shadow: 0.1em 0.1em black;    
+}
+
+.divsteam{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*tablasteamdeck*/
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.parrafosteamdeck{
+    font-style: italic;
+    color: rgb(238, 84, 13);
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divps{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: fixed;
+    /*tablaps5*/
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.titulops5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 73, 209);
+}
+
+.parrafops5{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em black;
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divxbox{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black;
+
+}
+.tituloxbox{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: square;
+    color: rgb(20, 228, 37);
+    text-shadow: 0.1em 0.1em black;
+}
+
+.xboxS{
+    font-style: italic;
+    color: rgb(29, 207, 29);
+    text-shadow: 0.1em 0.1em black;
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tablaconsolas{
+    color: antiquewhite;
+    text-shadow: 0.1em 0.1em black;
+    
+}
+
+.precios{
+    font-family: fantasy;
+    color: rgb(173, 173, 20);
+    text-shadow: 0.1em 0.1em black;
+    
+    
+}
+
+/*exclusivospc*/
+
+.subtituloscategorias{
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(196, 15, 9);       
+    text-shadow: 0.1em 0.1em black;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap    
+}
+
+
+.halflifefondo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*tablahalflife*/
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black;              
+    
+}
+
+.halflife{
+
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorange;
+    text-shadow: 0.1em 0.1em black;
+    
+}
+
+.historiaHL{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.parrafohalflife{
+    font-style: italic;
+    color: darkorange;
+    text-shadow: 0.1em 0.1em black;
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.leagueoflegends{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*tablaLOL*/
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black; 
+
+}
+
+.titulohistorialol{
+
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 153, 255);
+    
+}
+
+.titulolol{
+
+    color: rgb(0, 153, 255);
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+
+}
+
+.sinopsislol{
+
+    font-style: italic;
+    color: rgb(0, 153, 255);
+    text-shadow: 0.1em 0.1em black;
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Ageofempires2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*tablaAO2*/
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em black; 
+}
+
+.tituloAO2{
+    color: rgb(246, 247, 248);
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.historiaao2{
+
+    color: rgb(246, 247, 248);
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.parrafoao2{
+
+    font-style: italic;
+    color: rgb(246, 247, 248);
+    text-shadow: 0.1em 0.1em black;
+    text-align: center;
+    font-size: large ;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*historiaVideoJuegos.*/
+
+.parrafohistoriavj{
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(247, 123, 8);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em black;
+}
+
+.tituloshistoriavj{
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: rgb(192, 190, 190);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em black;
+    text-decoration: underline;
+    
+
+}
+
+.parrafohistoriavj_mariobros{
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(110, 112, 110);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em black;
+}
+
+/*HistoriaEsports*/
+
+.subtituloesports{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+    color: rgb(199, 202, 199);
+    text-shadow: 0.1em 0.1em black;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.parrafoesports{
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(199, 202, 199);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em black;
+
+}
+
+.subtituloesports_nintendo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+    color: rgb(235, 19, 19);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.parrafoesports_nintendo{
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(235, 19, 19);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+
+}
+
+.parrafoesports_nintendo2{
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(177, 176, 176);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+
+
+}
+
+
+.subtituloesports_lol{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+    color: rgb(166, 177, 16);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+
+.parrafoesports_lol{
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: rgb(166, 177, 16);    
+    font-size: 25px;   
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+
+
+/*wallpapers*/
+.subtituloswallpapers{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(127, 127, 129);
+    text-shadow: 0.1em 0.1em black; 
+    text-align: center;
+    font-size: 30px;
+}
+
+.wallpapers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 6px;
+    grid-column-gap:1px;
+    padding-left: 80px;
+    
+}
+
+
+
+.Animacion1{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion1:hover{
+    transform: scale(1.2);
+}
+
+.Animacion2{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion2:hover{
+    transform: scale(1.2);
+}
+.Animacion3{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion3:hover{
+    transform: scale(1.2);
+}
+.Animacion4{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion4:hover{
+    transform: scale(1.2);
+}
+.Animacion5{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion5:hover{
+    transform: scale(1.2);
+}
+.Animacion6{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion6:hover{
+    transform: scale(1.2);
+}
+.Animacion7{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion7:hover{
+    transform: scale(1.2);
+}
+.Animacion8{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion8:hover{
+    transform: scale(1.2);
+}
+.Animacion9{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion9:hover{
+    transform: scale(1.2);
+}
+.Animacion10{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion10:hover{
+    transform: scale(1.2);
+}
+.Animacion11{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion11:hover{
+    transform: scale(1.2);
+}
+.Animacion12{
+    transition: all 0.1s ease-in-out;
+}
+
+.Animacion12:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+/*Mobile*/
+@media screen and (min-width: 320px) and (max-width: 569px){
+    h1{
+        text-align: center;    
+        font-size: 30px;            
+    }
+
+    .img{
+        max-height: 150px;
+        min-width: 100px;
+    }
+
+    .categorias{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;    
+        color: rgb(129, 127, 127);
+        text-shadow: 0.1em 0.1em rgb(39, 2, 33);
+    }
+
+    .subtituloscategorias{
+        padding-right: 20px;
+    }
+
+    iframe{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-size: cover;
+        background-attachment: cover;
+    }
+    
+    /*imagenes direccionales*/
+
+    .imagenindex{
+        display: flex;
+        flex-direction: column;
+        column-gap: 2px;
+        align-items: center;
+        
+    }
+
+    .imagenESP{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;   
+    }
+         
+    .divsteam{
+        background-position: center;
+        background-attachment: cover;
+        background-position: center;
+        margin: 0px;
+    }
+       
+    .divps{
+        
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+       
+    .divxbox{
+        background-attachment: cover;
+        background-position:bottom;
+    }
+    
+    .precios{
+        font-family: fantasy;
+        color: rgb(173, 173, 20);
+        text-shadow: 0.1em 0.1em black;
+        align-items: center;
+        
+    }         
+
+}
+
+/*Tablet*/
+@media screen and (min-width: 570px) and (max-width: 991px){
+
+   
+    iframe{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .subtituloscategorias{
+        padding-right: 20px;
+        justify-content: center;
+    }
+    
+
+    .imagenindex{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap:18px ;
+        grid-row-gap: 18px;
+        justify-content: center;
+        justify-items: center;  
+        padding-left: 290px;
+        margin: 20px;
+    }
+
+    .wallpapers{
+        justify-content: center;
+        justify-items: center;
+        margin: 20px;
+        padding-left: 280px;
+        
+        
+    }
+
+    
+    body{
+
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1444px) {
+
+    body{
+        background-size: cover;
+    }
+
+    .imagenindex{
+        column-gap: 15px;
+    }
+}
