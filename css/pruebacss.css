@@ -7,7 +7,7 @@
   font-size: 30px; }
 
 .subtituloscategorias {
-  padding-right: 180px;
+  align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
   text-shadow: 0.1em 0.1em black; }
@@ -65,7 +65,7 @@ h1 {
   text-align: center;
   font-family: fantasy;
   font-style: inherit;
-  color: #f31a1a;
+  color: red;
   font-size: 85px;
   text-shadow: 0.1em 0.1em black;
   transition: color 1s; }
@@ -86,7 +86,7 @@ h1:hover {
 .titulosteam {
   font-style: italic;
   list-style: square;
-  color: #ec0404;
+  color: red;
   text-shadow: 0.1em 0.1em black; }
 
 .divsteam {
@@ -366,72 +366,6 @@ h1:hover {
   transition: all 0.1s ease-in-out; }
 
 .Animacion1:hover {
-  transform: scale(1.2); }
-
-.Animacion2 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion2:hover {
-  transform: scale(1.2); }
-
-.Animacion3 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion3:hover {
-  transform: scale(1.2); }
-
-.Animacion4 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion4:hover {
-  transform: scale(1.2); }
-
-.Animacion5 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion5:hover {
-  transform: scale(1.2); }
-
-.Animacion6 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion6:hover {
-  transform: scale(1.2); }
-
-.Animacion7 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion7:hover {
-  transform: scale(1.2); }
-
-.Animacion8 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion8:hover {
-  transform: scale(1.2); }
-
-.Animacion9 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion9:hover {
-  transform: scale(1.2); }
-
-.Animacion10 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion10:hover {
-  transform: scale(1.2); }
-
-.Animacion11 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion11:hover {
-  transform: scale(1.2); }
-
-.Animacion12 {
-  transition: all 0.1s ease-in-out; }
-
-.Animacion12:hover {
   transform: scale(1.2); }
 
 /*Mobile*/

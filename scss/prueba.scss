@@ -1,4 +1,6 @@
 /*configuraciones generales*/
+$colorprimary:red;
+
 .categorias{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;    
@@ -8,7 +10,7 @@
 }
 
 .subtituloscategorias{
-    padding-right: 180px;
+    align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     text-shadow: 0.1em 0.1em black;   
