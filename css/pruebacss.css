@@ -1,4 +1,32 @@
 /*configuraciones generales*/
+.tienda-steam {
+  background-color: none;
+  padding-left: 20px; }
+
+.tienda-epic {
+  background-color: none;
+  padding-left: 20px; }
+
+.tienda-origin {
+  background-color: none;
+  padding-left: 20px; }
+
+.boton, .boton-historia, .boton-juego, .boton-pasion {
+  width: 100px;
+  height: 15px;
+  margin-right: 10px;
+  border: 5px solid;
+  text-shadow: 0.1em 0.1em black; }
+
+.boton-historia {
+  color: #e90a0a; }
+
+.boton-juego {
+  color: #4d164d; }
+
+.boton-pasion {
+  color: green; }
+
 .categorias {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;

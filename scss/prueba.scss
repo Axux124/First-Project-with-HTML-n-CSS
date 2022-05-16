@@ -1,6 +1,45 @@
 /*configuraciones generales*/
+@mixin text($textshadow) {
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+
 $colorprimary:red;
 
+$tiendasgamers:(
+    steam:rgb(2, 2, 46),
+    epic: black,
+    origin:orange,
+
+);
+@each $tiendas, $color in $tiendasgamers{
+    .tienda-#{$tiendas}{
+        background-color: none;
+        padding-left: 20px;
+    }  
+}
+ 
+.boton{
+    width: 100px;
+    height: 15px;
+    margin-right: 10px;
+    border: 5px solid;
+    @include text( 0.1em 0.1em rgb(0, 0, 0));
+}
+
+.boton-historia{
+    @extend .boton;
+    color: rgb(233, 10, 10);
+    
+}
+.boton-juego{
+    @extend .boton;
+    color: rgb(77, 22, 77);
+}
+.boton-pasion{
+    @extend .boton;
+    color: green;
+
+}
 .categorias{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;    
@@ -13,7 +52,7 @@ $colorprimary:red;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
-    text-shadow: 0.1em 0.1em black;   
+    @include text( 0.1em 0.1em rgb(0, 0, 0));   
 }
 
 body{
