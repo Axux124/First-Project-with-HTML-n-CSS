@@ -383,7 +383,9 @@ h1:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 6px;
   grid-column-gap: 1px;
-  padding-left: 80px; }
+  margin-left: 80px; }
+  .wallpapers img {
+    width: 70%; }
 
 .Animacion1 {
   transition: all 0.1s ease-in-out; }
@@ -410,6 +412,13 @@ h1:hover {
     max-width: 100%;
     margin: 0;
     padding: 0; }
+  .wallpapers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 0; }
+    .wallpapers img {
+      width: 100%; }
   body {
     background-size: cover;
     background-attachment: cover; }
@@ -443,7 +452,14 @@ h1:hover {
     font-family: fantasy;
     color: #adad14;
     text-shadow: 0.1em 0.1em black;
-    align-items: center; } }
+    align-items: center; }
+  .wallpapers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 0; }
+    .wallpapers img {
+      width: 100%; } }
 
 /*Tablet*/
 @media screen and (min-width: 570px) and (max-width: 991px) {
@@ -462,15 +478,10 @@ h1:hover {
   .imagenESP2 {
     width: 100%;
     padding-right: 90px; }
-  .wallpapers {
-    justify-content: center;
-    justify-items: center;
-    margin: 20px;
-    padding-left: 280px; }
   body {
     background-size: cover; } }
 
-@media only screen and (min-width: 992px) and (max-width: 1444px) {
+@media only screen and (min-width: 992px) {
   body {
     background-size: cover; }
   .imagenindex {
